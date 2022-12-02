@@ -1,3 +1,8 @@
+# Install and import packages
+! pip install datasets
+import pandas as pd
+import matplotlib.pyplot as plt
+
 from datasets import load_dataset
 dataset = load_dataset("climate_fever")
 
